@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Dla gospodarstw zatrudniających cudzoziemców sezonowo: pracownicy na jednej liście, terminy ich dokumentów i przypomnienie SMS.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Sezon Terminy</a></div>
-  <nav class="top"><a href="#co" data-ev="click_nav_co">Co dostajesz</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#przyklad" data-ev="click_nav_przyklad">Przykład</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Sezon Terminy</a>
+  <nav><a href="#co" data-ev="click_nav_co">Co dostajesz</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#przyklad" data-ev="click_nav_przyklad">Przykład</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Każdy pracownik sezonowy i każdy jego termin na jednej liście — z przypomnieniem SMS</h1>
-    <p class="sub">Dla gospodarstw, sadów, szklarni i plantacji zatrudniających od kilku do kilkudziesięciu pracowników sezonowych z państw trzecich: terminy wniosków, wpisów, przyjazdów, dokumentów i końca pracy każdego pracownika w jednym miejscu.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Tego potrzebuję</a>
-    <p class="cta-note">Wczesny dostęp · Na tej stronie nie pobieramy jeszcze płatności</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Dla gospodarstw, sadów, szklarni</p>
+      <h1 class="rise" style="--i:1" data-len="long">Każdy pracownik sezonowy i każdy jego termin na jednej liście&nbsp;<span class="soft">— z przypomnieniem SMS</span></h1>
+      <p class="rise" style="--i:2">Dla gospodarstw, sadów, szklarni i plantacji zatrudniających od kilku do kilkudziesięciu pracowników sezonowych z państw trzecich: terminy wniosków, wpisów, przyjazdów, dokumentów i końca pracy każdego pracownika w jednym miejscu.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Tego potrzebuję</a>
+      <p class="meta rise" style="--i:4">Wczesny dostęp · Na tej stronie nie pobieramy jeszcze płatności</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="160" font-size="40" font-weight="600" fill="#0a1524">Sezon Terminy</text><line x1="120" y1="210" x2="1080" y2="210" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="250" width="48" height="48" rx="10" fill="#dfe8f7" /><text x="200" y="286" font-size="32" font-weight="600" fill="#0a1524">Lista pracowników</text><rect x="130" y="350" width="48" height="48" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="362" width="280" height="24" rx="12" fill="#dde2ea" /><rect x="130" y="450" width="48" height="48" rx="10" fill="#12397a" /><rect x="200" y="462" width="200" height="24" rx="12" fill="#b9c3d2" /><rect x="130" y="550" width="48" height="48" rx="10" fill="#dfe8f7" /><rect x="200" y="562" width="340" height="24" rx="12" fill="#dde2ea" /><rect x="700" y="260" width="360" height="400" rx="20" fill="#dfe8f7" /><text x="730" y="330" font-size="34" font-weight="600" fill="#0a1524">SMS</text><rect x="750" y="470" width="56" height="150" rx="8" fill="#ffffff" /><rect x="830" y="400" width="56" height="220" rx="8" fill="#12397a" /><rect x="910" y="510" width="56" height="110" rx="8" fill="#b9c3d2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Dla</dt><dd>Gospodarstw, sadów, szklarni</dd></div>
+      <div><dt>Co</dt><dd>Przypomnieniem SMS</dd></div>
+      <div><dt>Jak</dt><dd>W jednym miejscu</dd></div>
+      <div><dt>Dostęp</dt><dd>Usługa jest w przygotowaniu</dd></div>
+    </dl>
+  </section>
 
   <section id="co" data-view="features_view">
-    <h2>Co dostajesz</h2>
-    <div class="grid">
-      <div class="card"><b>Lista pracowników</b><span>Każdy pracownik sezonowy z jego dokumentami i datami.</span><br><a class="btn" href="price.html" data-ev="feature_lista">Tego potrzebuję</a></div>
-      <div class="card"><b>Terminy</b><span>Daty wniosku, wpisu, przyjazdu, rozpoczęcia i końca pracy oraz ważności dokumentów.</span><br><a class="btn" href="price.html" data-ev="feature_terminy">Tego potrzebuję</a></div>
-      <div class="card"><b>Przypomnienia SMS</b><span>SMS do Ciebie przed każdym terminem, który ustawisz.</span><br><a class="btn" href="price.html" data-ev="feature_sms">Tego potrzebuję</a></div>
-      <div class="card"><b>Dokumenty</b><span>Skany paszportów, umów i decyzji przy pracowniku.</span><br><a class="btn" href="price.html" data-ev="feature_dokumenty">Tego potrzebuję</a></div>
+    <div class="stack"><h2>Co dostajesz</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="32" font-weight="600" fill="#0a1524">Lista pracowników</text><circle cx="250" cy="250" r="46" fill="#dfe8f7" /><circle cx="520" cy="250" r="46" fill="#12397a" /><rect x="180" y="320" width="140" height="90" rx="40" fill="#dfe8f7" /><rect x="450" y="320" width="140" height="90" rx="40" fill="#dfe8f7" /><rect x="160" y="430" width="480" height="70" rx="12" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="190" y="454" width="200" height="18" rx="9" fill="#dde2ea" /><rect x="420" y="454" width="140" height="18" rx="9" fill="#b9c3d2" /></svg></div>
+        <h3>Lista pracowników</h3><p>Każdy pracownik sezonowy z jego dokumentami i datami.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_lista">Tego potrzebuję</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="32" font-weight="600" fill="#0a1524">Terminy</text><rect x="120" y="180" width="560" height="320" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="150" y="220" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="270" y="220" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="390" y="220" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="510" y="220" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="150" y="300" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="270" y="300" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="390" y="300" width="90" height="56" rx="8" fill="#12397a" /><rect x="510" y="300" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="150" y="380" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="270" y="380" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="390" y="380" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="510" y="380" width="90" height="56" rx="8" fill="#dfe8f7" /></svg></div>
+        <h3>Terminy</h3><p>Daty wniosku, wpisu, przyjazdu, rozpoczęcia i końca pracy oraz ważności dokumentów.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_terminy">Tego potrzebuję</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="32" font-weight="600" fill="#0a1524">Przypomnienia SMS</text><rect x="250" y="180" width="220" height="340" rx="28" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="310" y="200" width="100" height="16" rx="8" fill="#dde2ea" /><rect x="280" y="250" width="160" height="70" rx="14" fill="#dfe8f7" /><rect x="300" y="340" width="140" height="50" rx="12" fill="#12397a" /><circle cx="360" cy="470" r="16" fill="#b9c3d2" /></svg></div>
+        <h3>Przypomnienia SMS</h3><p>SMS do Ciebie przed każdym terminem, który ustawisz.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_sms">Tego potrzebuję</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="32" font-weight="600" fill="#0a1524">Dokumenty</text><rect x="140" y="180" width="420" height="320" rx="12" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="170" y="220" width="280" height="20" rx="10" fill="#dde2ea" /><rect x="170" y="260" width="220" height="20" rx="10" fill="#b9c3d2" /><rect x="170" y="300" width="300" height="20" rx="10" fill="#dde2ea" /><rect x="170" y="340" width="160" height="20" rx="10" fill="#dde2ea" /><circle cx="480" cy="420" r="52" fill="#dfe8f7" /><polyline points="456,422 476,444 508,400" fill="none" stroke="#12397a" stroke-width="6" /></svg></div>
+        <h3>Dokumenty</h3><p>Skany paszportów, umów i decyzji przy pracowniku.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_dokumenty">Tego potrzebuję</a>
+      </article>
     </div>
   </section>
 
-  <section id="przyklad" data-view="example_view">
-    <h2>Przykład (dane fikcyjne)</h2>
-    <p class="fine">Sad jabłoniowy, 24 pracowników sezonowych z Ukrainy, Kolumbii i Uzbekistanu. W kwietniu lista pokazuje: 6 osób przyjeżdża w przyszłym tygodniu, dla 2 kończy się ważność dokumentu w czerwcu, dla 1 brakuje skanu umowy. Właściciel dostaje SMS tydzień przed każdym terminem.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Wybierz pakiet</a>
+  <section id="przyklad" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Przykład</h2>
+      <p>Sad jabłoniowy, 24 pracowników sezonowych z Ukrainy, Kolumbii i Uzbekistanu. W kwietniu lista pokazuje: 6 osób przyjeżdża w przyszłym tygodniu, dla 2 kończy się ważność dokumentu w czerwcu, dla 1 brakuje skanu umowy. Właściciel dostaje SMS tydzień przed każdym terminem.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Wybierz pakiet</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="160" x2="1000" y2="160" fill="none" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="160" r="22" fill="#12397a" /><text x="240" y="230" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">Ukrainy</text><text x="600" y="230" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">dokumentu</text><text x="960" y="230" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">SMS</text><rect x="120" y="300" width="960" height="420" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="390" font-size="36" font-weight="600" fill="#0a1524">Sad jabłoniowy</text><rect x="170" y="450" width="70" height="70" rx="12" fill="#dfe8f7" /><rect x="270" y="450" width="70" height="70" rx="12" fill="#12397a" /><rect x="370" y="450" width="70" height="70" rx="12" fill="#dde2ea" /><rect x="470" y="450" width="70" height="70" rx="12" fill="#b9c3d2" /><text x="170" y="640" font-size="32" fill="#566174">Właściciel</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Jak to działa</h2>
-    <p>Gospodarstwo, które zatrudnia pracowników sezonowych z państw trzecich, prowadzi dla każdego z nich osobną historię: wniosek złożony przez praca.gov.pl, wpis do ewidencji, przyjazd, rozpoczęcie pracy, dokumenty pobytowe, koniec sezonu. Portal praca.gov.pl przyjmuje wnioski, ale nie pilnuje terminów i nie prowadzi kartoteki pracowników gospodarstwa. Przy kilkudziesięciu osobach łatwo coś przeoczyć, a według Ministerstwa Rodziny, Pracy i Polityki Społecznej za nielegalne powierzenie pracy cudzoziemcowi grozi grzywna.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Jak to działa</h2></div>
+    <div class="stack">
+      <p>Gospodarstwo, które zatrudnia pracowników sezonowych z państw trzecich, prowadzi dla każdego z nich osobną historię: wniosek złożony przez praca.gov.pl, wpis do ewidencji, przyjazd, rozpoczęcie pracy, dokumenty pobytowe, koniec sezonu. Portal praca.gov.pl przyjmuje wnioski, ale nie pilnuje terminów i nie prowadzi kartoteki pracowników gospodarstwa. Przy kilkudziesięciu osobach łatwo coś przeoczyć, a według Ministerstwa Rodziny, Pracy i Polityki Społecznej za nielegalne powierzenie pracy cudzoziemcowi grozi grzywna.</p>
     <p>Sezon Terminy prowadzi te sprawy na jednej liście. Każdy pracownik ma kartę: dane z paszportu, kraj, stanowisko, numer wniosku i daty kolejnych etapów. Skany paszportu, umowy i decyzji dołączasz zdjęciem z telefonu.</p>
     <p>Dla każdego pracownika widzisz, jakie terminy go dotyczą i ile dni do nich zostało: kiedy złożono wniosek, kiedy dokonano wpisu, kiedy pracownik przyjechał i zaczął pracę, do kiedy ważne są jego dokumenty, kiedy kończy się okres pracy. Terminy i ich długość ustawiasz według dokumentów, które otrzymałeś z urzędu.</p>
     <p>Przed każdym terminem dostajesz SMS — na przykład tydzień i trzy dni wcześniej — z nazwiskiem pracownika i tym, co trzeba zrobić. Liczbę dni przed terminem wybierasz sam. Na ekranie głównym są osoby, przy których termin jest najbliżej.</p>
@@ -115,31 +149,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Jeśli pracownicy przyjeżdżają w grupach, możesz dodać całą grupę naraz, z tą samą datą przyjazdu i tym samym okresem pracy, a potem poprawić dane pojedynczych osób. Pracownicy, którzy wracają co roku, nie muszą być wpisywani od nowa: ich dane przenosisz do nowego sezonu jednym kliknięciem i uzupełniasz tylko nowe dokumenty i daty.</p>
     <p>Na liście widać też, czy przy pracowniku brakuje dokumentu, na przykład skanu umowy lub kopii dokumentu pobytowego. Zanim przyjdzie kontrola, sprawdzasz jednym spojrzeniem, czy kartoteka każdej osoby jest kompletna, zamiast przeglądać segregatory i wiadomości w telefonie. Listę możesz wydrukować albo wysłać jako plik osobie, która pomaga Ci przy dokumentach, na przykład biuru rachunkowemu.</p>
     <p>Sezon Terminy nie jest urzędem ani kancelarią i nie składa wniosków w Twoim imieniu. Za legalność zatrudnienia odpowiada pracodawca; program pomaga pilnować terminów.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Pytania i odpowiedzi</h2>
-    <h3>Dla kogo jest Sezon Terminy?</h3>
-    <p>Dla gospodarstw, sadów, szklarni i obiektów turystycznych zatrudniających pracowników sezonowych z państw trzecich.</p>
-    <h3>Czy program składa wnioski?</h3>
-    <p>Nie. Wnioski składasz w praca.gov.pl; program pilnuje terminów.</p>
-    <h3>Jak działają przypomnienia?</h3>
-    <p>SMS przed każdym terminem, z liczbą dni, którą ustawisz.</p>
-    <h3>Czy płacę za każdego pracownika?</h3>
-    <p>Nie, cena jest stała za gospodarstwo.</p>
-    <h3>Czy mogę już korzystać?</h3>
-    <p>Jeszcze nie. Usługa jest w przygotowaniu i sprawdzamy, czy gospodarstwa jej potrzebują.</p>
+    <div class="stack"><h2>Pytania i odpowiedzi</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Dla kogo jest Sezon Terminy?</h3><p>Dla gospodarstw, sadów, szklarni i obiektów turystycznych zatrudniających pracowników sezonowych z państw trzecich.</p></div>
+      <div class="split flip"><h3>Czy program składa wnioski?</h3><p>Nie. Wnioski składasz w praca.gov.pl; program pilnuje terminów.</p></div>
+      <div class="split flip"><h3>Jak działają przypomnienia?</h3><p>SMS przed każdym terminem, z liczbą dni, którą ustawisz.</p></div>
+      <div class="split flip"><h3>Czy płacę za każdego pracownika?</h3><p>Nie, cena jest stała za gospodarstwo.</p></div>
+      <div class="split flip"><h3>Czy mogę już korzystać?</h3><p>Jeszcze nie. Usługa jest w przygotowaniu i sprawdzamy, czy gospodarstwa jej potrzebują.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Dodaj swoje gospodarstwo</h2>
-    <p><label>Pracowników sezonowych<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— wybierz —</option><option>Do 10</option><option>11–30</option><option>31–60</option><option>Ponad 60</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Dodaj gospodarstwo</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Dodaj swoje gospodarstwo</h2>
+    </div>
+    <div class="tile stack">
+      <label>Pracowników sezonowych<select data-ev-focus="form_start"><option value="">— wybierz —</option><option>Do 10</option><option>11–30</option><option>31–60</option><option>Ponad 60</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Dodaj gospodarstwo</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Sezon Terminy</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Polityka prywatności</a></p>
-  <p class="muted">Sezon Terminy nie jest urzędem ani kancelarią i nie składa wniosków. Za legalność zatrudnienia odpowiada pracodawca.</p>
+  <p>Sezon Terminy nie jest urzędem ani kancelarią i nie składa wniosków. Za legalność zatrudnienia odpowiada pracodawca.</p>
 </div></footer>
 
 </body>
